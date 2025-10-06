@@ -10,7 +10,7 @@ on:
 
 jobs:
   cog-safe-push:
-    runs-on: ubuntu-latest-4-cores
+    runs-on: custom-runner
 
     steps:
     - uses: actions/checkout@v3
